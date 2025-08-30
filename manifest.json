@@ -1,0 +1,24 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "FM_npc",
+		"description": "FM_npc Resource Pack",
+		"uuid": "f7276108-5cc0-4cf5-9353-aa4d021a5f88",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["FoxyMc"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.7.0"]
+		}
+	},
+	"modules": [
+		{
+			"description": "FM_npc",
+			"type": "resources",
+			"uuid": "4180e81b-8fa5-4bdf-986a-602593dcbab8",
+			"version": [1, 0, 0]
+		}
+	]
+}

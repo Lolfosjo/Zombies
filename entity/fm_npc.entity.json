@@ -1,0 +1,29 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "foxymc:emoji",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/fm_npc"
+			},
+			"geometry": {
+				"default": "geometry.fm_npc"
+			},
+			"render_controllers": ["controller.render.foxymc"],
+			"scripts": {
+				"animate": ["new_animation", "new_animation_controller"]
+			},
+			"animations": {
+				"new_animation": "animation.emoji.new",
+				"new_animation_controller": "controller.animation.emoji.new"
+			},
+			"spawn_egg": {
+				"base_color": "#ad8a4a",
+				"overlay_color": "#06403b"
+			}
+		}
+	}
+}

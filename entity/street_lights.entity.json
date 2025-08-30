@@ -1,0 +1,22 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "foxymc:street_lights",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/street_lights"
+			},
+			"geometry": {
+				"default": "geometry.street_lights"
+			},
+			"render_controllers": ["controller.render.default"],
+			"spawn_egg": {
+				"base_color": "#1c1b2f",
+				"overlay_color": "#464646"
+			}
+		}
+	}
+}

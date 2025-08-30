@@ -1,0 +1,29 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "foxymc:minigames",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/minigames"
+			},
+			"geometry": {
+				"default": "geometry.minigames"
+			},
+			"render_controllers": ["controller.render.foxymc"],
+			"scripts": {
+				"animate": ["hi_animation", "hi_animation_controller"]
+			},
+			"animations": {
+				"hi_animation": "animation.minigames.hi",
+				"hi_animation_controller": "controller.animation.minigames.hi"
+			},
+			"spawn_egg": {
+				"base_color": "#fbd08f",
+				"overlay_color": "#2796be"
+			}
+		}
+	}
+}

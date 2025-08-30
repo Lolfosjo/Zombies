@@ -1,0 +1,22 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "foxymc:apokalypsen_logo",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/apokalypsen_logo"
+			},
+			"geometry": {
+				"default": "geometry.apokalypsen_logo"
+			},
+			"render_controllers": ["controller.render.default"],
+			"spawn_egg": {
+				"base_color": "#229c19",
+				"overlay_color": "#d11515"
+			}
+		}
+	}
+}

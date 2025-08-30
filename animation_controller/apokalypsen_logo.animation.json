@@ -1,0 +1,16 @@
+{
+	"format_version": "1.19.0",
+	"animation_controllers": {
+		"controller.animation.apokalypsen_logo.hi": {
+			"states": {
+				"default": {
+					"animations": ["hi"],
+					"on_entry": ["@animation hi"],
+					"transitions": [
+						{ "default": "true" }
+					]
+				}
+			}
+		}
+	}
+}

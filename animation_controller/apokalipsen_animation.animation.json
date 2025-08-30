@@ -1,0 +1,16 @@
+{
+	"format_version": "1.19.0",
+	"animation_controllers": {
+		"controller.animation.apo.idle": {
+			"states": {
+				"default": {
+					"animations": ["idle"],
+					"on_entry": ["@animation idle"],
+					"transitions": [
+						{"default": "true"}
+					]
+				}
+			}
+		}
+	}
+}

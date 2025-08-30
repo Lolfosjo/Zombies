@@ -1,0 +1,28 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "foxymc:apokalipsen_animation",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/apokalipsen_animation"
+			},
+			"geometry": {
+				"default": "geometry.apokalipsen_animation"
+			},
+			"render_controllers": ["controller.render.foxymc"],
+			"scripts": {
+				"animate": ["idle"]
+			},
+			"animations": {
+				"idle": "animation.apo.idle"
+			},
+			"spawn_egg": {
+				"base_color": "#ad8a4a",
+				"overlay_color": "#06403b"
+			}
+		}
+	}
+}
